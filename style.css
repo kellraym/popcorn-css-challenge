@@ -1,5 +1,82 @@
-/*COLORS:
-Header background - #FFDBAA
+html, body {
+  background-color: #D4A76A;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #FFDBAA;
+  border-bottom: 2px solid #000 ;
+  color: #553100;
+  padding: 0;
+  margin: 0;
+  margin-top: -20px;
+  height: 175px;
+}
+
+header h1{
+    padding: 30px 0 0 30px;
+    vertical-align: auto;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    text-align: center;
+}
+
+li{
+    text-decoration: none;
+    color: #fff;
+    background-color: #805215;
+    display: block;
+    float:right;
+    padding:20px;
+    margin-right: 5%;
+}
+
+article {
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 20%;
+  width: 400px;
+  margin: 5%;
+  padding: 15px;
+  
+}
+
+article h1{
+    text-align: center;
+    margin: auto;
+}
+
+button {
+  color: #fff;
+  background-color: #805215;
+  height: 50px;
+  width: 80%;
+  margin: 0 10% 0;
+  align-content: center;
+}
+
+footer {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+    margin: 0 20px 0 20px;
+    padding: 15px;
+}
+
+footer h1{
+    text-align: center;
+    vertical-align: auto;
+    margin: auto;
+}
+
+/* Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
